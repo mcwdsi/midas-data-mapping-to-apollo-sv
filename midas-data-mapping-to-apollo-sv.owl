@@ -206,6 +206,19 @@
     
 
 
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000060 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000060">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000595"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://midasnetwork.us/datasets#MIDAS_DATA000065 -->
 
     <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000065">
