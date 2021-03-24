@@ -6,6 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:datasets="http://midasnetwork.us/datasets#">
     <owl:Ontology rdf:about="http://midasnetwork.us/datasets"/>
     
@@ -543,6 +544,7 @@
 
     <owl:Class rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000071">
         <rdfs:subClassOf rdf:resource="http://midasnetwork.us/datasets#MIDAS_DATA000059"/>
+        <MIDAS_DATA000003>Data regarding the availability or administration of vaccinations.</MIDAS_DATA000003>
         <rdfs:label xml:lang="en">Vaccinations</rdfs:label>
     </owl:Class>
     
@@ -552,6 +554,7 @@
 
     <owl:Class rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000072">
         <rdfs:subClassOf rdf:resource="http://midasnetwork.us/datasets#MIDAS_DATA000059"/>
+        <MIDAS_DATA000003>Information about the edudcational institutions that either paused in-person instruction or closed entirely in repsonse to an outbreak.</MIDAS_DATA000003>
         <rdfs:label xml:lang="en">School closures</rdfs:label>
     </owl:Class>
     

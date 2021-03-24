@@ -37,6 +37,64 @@
     
 
 
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000000 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000000">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000002 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000002">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000005 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000005">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000010 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000010">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000013 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000013">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000594"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000014 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://midasnetwork.us/datasets#MIDAS_DATA000018 -->
 
     <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000018">
@@ -284,6 +342,19 @@
     
 
 
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000068 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000068">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://midasnetwork.us/datasets#MIDAS_DATA000071 -->
 
     <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000071">
@@ -358,6 +429,14 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000603"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Collection -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     </rdf:Description>
 </rdf:RDF>
 
