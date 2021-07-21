@@ -433,6 +433,32 @@
     
 
 
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000087 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000087">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000593"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000088 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000088">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000591"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#Collection -->
 
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
