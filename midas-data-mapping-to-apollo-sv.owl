@@ -217,8 +217,8 @@
     <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000046">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000542"/>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000608"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -284,6 +284,19 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000542"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://midasnetwork.us/datasets#MIDAS_DATA000059 -->
+
+    <rdf:Description rdf:about="http://midasnetwork.us/datasets#MIDAS_DATA000059">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000604"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
